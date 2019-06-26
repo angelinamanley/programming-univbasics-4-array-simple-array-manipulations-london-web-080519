@@ -43,3 +43,7 @@ end
 def using_delete_at(array, integer)
   array.delete(array[integer])
 end
+
+def using_uniq(array)
+  array.uniq
+end
